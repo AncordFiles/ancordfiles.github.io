@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancord Pub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f1d766;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .app-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .app-card {
+            width: 200px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .app-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .app-card h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #007aff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ancord Pub</h1>
+    </header>
+    <div class="app-container">
+        <div class="app-card">
+            <img src="https://cdn.discordapp.com/attachments/1085568776268959787/1187041255818010624/88BDFFF1-0E4C-44EE-A834-4AC308550BEB.jpg?ex=65957151&is=6582fc51&hm=1ee9d17d31c508c391bfa76ff5d9e7a9e40ea3fe44a43eb3e6535ac72dc6e74a&" alt="App 1">
+            <h3>AncordPub App</h3>
+            <a href="download/app1.apk" download>Скачать</a>
+        </div>
+        <div class="app-card">
+            <img src="app2.jpg" alt="App 2">
+            <h3>Приложение 2</h3>
+            <a href="download/app2.apk" download>Скачать</a>
+        </div>
+        <!-- Добавьте другие приложения здесь -->
+    </div>
+    
+    </footer>
+</body>
+</html>
